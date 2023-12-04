@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Implanta.Common">
+      <HintPath>..\..\..\..\..\repos\implantanet\implantanet-web-repo\src\Logon\Implanta.Logon.Entity\bin\Debug\net6.0\Implanta.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Implanta.Logon.Entity">
+      <HintPath>..\..\..\..\..\repos\implantanet\implantanet-web-repo\src\Logon\Implanta.Logon.Entity\bin\Debug\net6.0\Implanta.Logon.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

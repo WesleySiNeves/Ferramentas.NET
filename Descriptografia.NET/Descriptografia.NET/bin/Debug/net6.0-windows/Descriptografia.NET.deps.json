@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Descriptografia.NET/1.0.0": {
+        "dependencies": {
+          "Implanta.Common": "1.0.0.0",
+          "Implanta.Logon.Entity": "1.0.0.0"
+        },
+        "runtime": {
+          "Descriptografia.NET.dll": {}
+        }
+      },
+      "Implanta.Common/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Logon.Entity/1.0.0.0": {
+        "runtime": {
+          "Implanta.Logon.Entity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.Resource/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.Resource.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Cadastro.Entity/1.0.0.0": {
+        "runtime": {
+          "Implanta.Cadastro.Entity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.ArquivosAnexos/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.ArquivosAnexos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Cadastro.Resource/1.0.0.0": {
+        "runtime": {
+          "Implanta.Cadastro.Resource.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.Data.EntityFramework/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.Data.EntityFramework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.Business/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.ArquivosAnexos.AzureStorage/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.ArquivosAnexos.AzureStorage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Descriptografia.NET/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Logon.Entity/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.Resource/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Cadastro.Entity/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.ArquivosAnexos/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Cadastro.Resource/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.Data.EntityFramework/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.Business/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.ArquivosAnexos.AzureStorage/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
