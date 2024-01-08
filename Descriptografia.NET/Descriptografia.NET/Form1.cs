@@ -79,15 +79,17 @@ namespace Descriptografia.NET
             string caminhoArquivo = Path.Combine(diretorioAplicacao, "exportacao.html");
 
             File.WriteAllText(caminhoArquivo, dadosHtml.ToString());
-            // Caminho para o executável do Google Chrome
-            string caminhoChrome = @"C:\Program Files\Google\Chrome\Application\chrome.exe";
+
+            var caminhoNavegador = $@"{txtDiretorioNavegador.Text.Trim()}";
+
+
 
 
             // Abrir o arquivo HTML no navegador padrão
             // Abrir o arquivo HTML no Google Chrome
             Process.Start(new ProcessStartInfo
             {
-                FileName = caminhoChrome,
+                FileName = caminhoNavegador,
                 Arguments = caminhoArquivo
             });
 
@@ -116,21 +118,9 @@ namespace Descriptografia.NET
 
         }
 
-        private void rbPermissaoUsuario_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rbPermissaoUsuario.Checked)
-            {
-                rbPermissaoGrupo.Checked = false;
-            }
-        }
 
-        private void rbPermissaoGrupo_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rbPermissaoGrupo.Checked)
-            {
-                rbPermissaoUsuario.Checked = false;
-            }
-        }
+
+
 
 
 
@@ -141,7 +131,7 @@ namespace Descriptografia.NET
             var texto = TextoCriptografado;
 
 
-            bool tipoPermissaoUsuario = rbPermissaoUsuario.Checked;
+            bool tipoPermissaoUsuario = true;
 
 
             var retorno = helper.Descriptogradar(texto, tipoPermissaoUsuario);

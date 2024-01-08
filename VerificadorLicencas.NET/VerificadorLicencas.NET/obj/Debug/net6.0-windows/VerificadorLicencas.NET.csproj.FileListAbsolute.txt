@@ -1,0 +1,17 @@
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\bin\Debug\net6.0-windows\VerificadorLicencas.NET.exe
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\bin\Debug\net6.0-windows\VerificadorLicencas.NET.deps.json
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\bin\Debug\net6.0-windows\VerificadorLicencas.NET.runtimeconfig.json
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\bin\Debug\net6.0-windows\VerificadorLicencas.NET.dll
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\bin\Debug\net6.0-windows\VerificadorLicencas.NET.pdb
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.csproj.AssemblyReference.cache
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.Form1.resources
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.csproj.GenerateResource.cache
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.GeneratedMSBuildEditorConfig.editorconfig
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.AssemblyInfoInputs.cache
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.AssemblyInfo.cs
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.csproj.CoreCompileInputs.cache
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.dll
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\refint\VerificadorLicencas.NET.dll
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.pdb
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\VerificadorLicencas.NET.genruntimeconfig.cache
+D:\wesley\myrepos\Ferramentas.NET\VerificadorLicencas.NET\VerificadorLicencas.NET\obj\Debug\net6.0-windows\ref\VerificadorLicencas.NET.dll

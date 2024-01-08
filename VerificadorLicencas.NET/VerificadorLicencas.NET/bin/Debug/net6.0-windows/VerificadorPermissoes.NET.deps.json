@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VerificadorLicencas.NET/1.0.0": {
+        "dependencies": {
+          "Implanta.Common": "1.0.0.0",
+          "Implanta.Common.Licensing": "1.0.0.0",
+          "Implanta.Common.Resource": "1.0.0.0"
+        },
+        "runtime": {
+          "VerificadorLicencas.NET.dll": {}
+        }
+      },
+      "Implanta.Common/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.Licensing/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.Licensing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Implanta.Common.Resource/1.0.0.0": {
+        "runtime": {
+          "Implanta.Common.Resource.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VerificadorLicencas.NET/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.Licensing/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Implanta.Common.Resource/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
