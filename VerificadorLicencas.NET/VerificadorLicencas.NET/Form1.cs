@@ -3,6 +3,7 @@
 using System.Runtime.Serialization;
 using System.Security.Cryptography;
 using System.Text;
+using VerificadorLicencas.NET.Helper;
 
 namespace VerificadorLicencas.NET
 {
@@ -12,6 +13,7 @@ namespace VerificadorLicencas.NET
         private static readonly byte[] BIv = { 0x50, 0x08, 0xF1, 0xDD, 0xDE, 0x3C, 0xF2, 0x18, 0x44, 0x74, 0x19, 0x2C, 0x53, 0x49, 0xAB, 0xBC };
         private const string CryptoKey = "KJKhkjhkasnckashLHfkjahslkfju987ombnjkaslj9=";
         private License _license = new License();
+        public ExcelHelper excelHelper = new ExcelHelper();
         public Form1()
         {
             InitializeComponent();
@@ -19,13 +21,31 @@ namespace VerificadorLicencas.NET
 
         private void btnExecutar_Click(object sender, EventArgs e)
         {
+            var localArquivo = @"D:\\wesley\\myrepos\\Ferramentas.NET\\VerificadorLicencas.NET\DadosLicença.xlsx";
+
+            var dados = excelHelper.GetDados(localArquivo);
+
+            for (int i = 0; i < dados.Count; i++)
+            {
+                var row = dados[i];
+
+                var result = DeSerialize<License>(row.Valor, true);
+
+                if (result != null)
+                {
+
+                    row.DataLincenciamento = result.ActivateDate;
+                    row.DataFim = result.ExpireDate;
+                    row.Quantidade = result.UserCount;
+                }
 
 
-            var licenca = "5xlWdo5F+aupgfJGXZZojiyn8MESIeb1wq8rCeTEvtuw3adnFuRFu26rFOPuiKLBpmo3NaoRtB6jl4K7Z6Kbb+BQz/r0+3M8NYZfC4AQhXXp3cFnMqenqV1gTEtHxSp0aiAggQKGYoA8RL32lLVO2yMxY0dwA5OojVNn43lUuVNQuZkkJ9jMsphf+GBqUfKk/Rqa6nEDoOysNC8X6a/89fH3SKXkxo7MAaeOVhX1ZZ9I66tz+P3Xlrn4Wkxcm16o+iKHFDPH1bDSumY6e9x9HICyrErN9LJvtfj/3DgNUNSRCUzZ+KtDX1jXBxaRFBGk0IeJUHZmdbhRbpKx2l7VWpqfO3aEj59rx/sfYea9euPpgT3JqvVzq1MG/NE3N2igjhyoc8uJuqj1xNEhczUJNZo0CpGIhRIoTE2dVvLshxI=";
+            }
 
-            _license = DeSerialize<License>(licenca, true);
 
-           
+            excelHelper.GerarExcel(@"D:\\wesley\\myrepos\\Ferramentas.NET\\VerificadorLicencas.NET\Resultado.xlsx", "Result", dados);
+
+
 
         }
 
